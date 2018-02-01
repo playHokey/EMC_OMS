@@ -209,7 +209,8 @@ $(function() {
 					// 模拟异步加载
 					setTimeout(function() {
 						callback({
-							data: options.products || dataFourth
+							data: options.products || dataFourth,
+							
 						});
 					}, 400);
 				},
